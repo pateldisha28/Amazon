@@ -1,0 +1,7 @@
+<suite name="Suite" parallels="tests">
+	<test name="TestNG" allow-return-values="true">
+		<classes>
+			<class name="testLayer.AmazonTest" />
+		</classes>
+	</test>
+</suite>

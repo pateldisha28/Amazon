@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]">
+  <test thread-count="5" name="TestNG(failed)">
+    <classes>
+      <class name="testLayer.SigninTest">
+        <methods>
+          <include name="Your_Address_Field"/>
+          <include name="Select_Brand_Checkbox"/>
+          <include name="Click_Add_A_Payment_Method"/>
+          <include name="Click_Your_Payment"/>
+          <include name="Invalid_Mobilenumber_EmailOrMobileField"/>
+          <include name="Invalid_EmailAddress_EmailOrMobileField"/>
+          <include name="Cancelled_Order_Field"/>
+          <include name="Dropdown_Your_Order_History"/>
+          <include name="Add_Empty_EmailOrMobile"/>
+          <include name="Click_Country_Region_Field"/>
+          <include name="Check_Product_Rating"/>
+          <include name="Add_Credit_Or_Debit_Card"/>
+          <include name="close"/>
+          <include name="initsetup"/>
+          <include name="Invalid_Password"/>
+          <include name="Not_Yet_Shipped_Field"/>
+          <include name="Buy_Order_Field"/>
+          <include name="Partial_Product_Search_String_Suggestion"/>
+          <include name="Mouse_hover"/>
+          <include name="Partial_Product_Search_1Char_Suggestion"/>
+          <include name="Search_product"/>
+          <include name="Check_Product_Company_Name"/>
+          <include name="Title"/>
+          <include name="Verify_Hello_Username"/>
+          <include name="Select_Out_Of_Stock_Product_Checkbox"/>
+          <include name="Add_Empty_Password"/>
+          <include name="Select_Rating"/>
+          <include name="Partial_Product_Search_3Char_Suggestion"/>
+          <include name="Add_Address_Field"/>
+          <include name="valid_Add_Address_Info"/>
+          <include name="Search_Btn"/>
+          <include name="Check_Product_Price"/>
+        </methods>
+      </class> <!-- testLayer.SigninTest -->
+    </classes>
+  </test> <!-- TestNG(failed) -->
+</suite> <!-- Failed suite [Suite] -->
